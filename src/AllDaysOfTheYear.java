@@ -3,6 +3,7 @@ import java.text.*;
 public class AllDaysOfTheYear {
     public static void main(String[] args) {
         SimpleDateFormat pattern = new SimpleDateFormat ("dd.MM.yyyy");
+        String x = "test";
 
         Calendar c = Calendar.getInstance();
         c.set(Calendar.DATE, 1);
